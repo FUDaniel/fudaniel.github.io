@@ -9,11 +9,8 @@
   <meta name="author" content="Daniel FU">
 
   
-  <meta name="description" content="耳畔响起 今天吃晚饭的时候，餐厅放着音乐，突然响起悠扬的吉他，耳熟的《蓝莲花》带我进入短暂的回忆。 没有什么能够阻挡
-你对自由地向往
-天马行空的生涯
-你的心了无牵挂
-。。。 本科那会我对音乐的依赖远没有现在高，现在每天在空闲的时候都在听音乐。这首《蓝莲花》让我想起本科宿舍的舍友，虽有曲折的故事。 &hellip;">
+  <meta name="description" content="问题描述 在执行rake deploy或者rake gen_deploy时出现如下错误
+Pushing generated _deploy website fatal: https://github.com/fudaniel/fudaniel.github.io/info/refs?service &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -69,6 +66,76 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/10/10/a-rake-mistake/">在部署新文章时遇到的问题</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-10-10T10:09:00+08:00" pubdate data-updated="true">Oct 10<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h2>问题描述</h2>
+
+<p>在执行rake deploy或者rake gen_deploy时出现如下错误<br/>
+Pushing generated _deploy website</p>
+
+<pre><code>fatal: https://github.com/fudaniel/fudaniel.github.io/info/refs?service=git-receive-pack not found: did you run git update-server-info on the server?
+</code></pre>
+
+<h2>解决办法</h2>
+
+<p>在google上搜索没有找到好的解决办法。今天早上突然想到，git用于版本控制，昨天遇到过github客户端提示当前commit版本较remote版本小。也就是版本号不一致，产生了冲突。所以我将remote端同步到本地，将.git隐藏文件复制到_deploy文件夹覆盖新生成的.git文件夹。再执行rake deploy就会成功啦。</p>
+
+<h2>犯的错误</h2>
+
+<p>我这里导致版本不一致的操作是多次执行rake setup_github_pages命令，这会导致它完全删除原来的_deploy文件夹，然后重新生成新的。这样版本就会与remote的不一致。</p>
+
+<h2>正确的发布新文章流程</h2>
+
+<ol>
+<li><p>执行rake new_post[&lsquo;title&rsquo;]来生成一个博文；</p></li>
+<li><p>找对生成的markdown文件，编辑内容，当然是使用markdown语法来编辑；</p></li>
+<li><p>执行rake generate来生成文章；</p></li>
+<li><p>执行rake preview在本地预览；</p></li>
+<li><p>执行rake deploy发布到Github中。</p></li>
+<li><p>执行下面命令将修改的源码推送到source分支：</p>
+
+<p> git add .<br/>
+ git commit -m “your message”<br/>
+ git push origin source</p>
+
+<h2>参考链接</h2>
+
+<p><a href="http://www.cnblogs.com/oec2003/archive/2013/05/27/3100896.html">windows下搭建octopress博客</a></p></li>
+</ol>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -181,6 +248,10 @@
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/10/10/a-rake-mistake/">在部署新文章时遇到的问题</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2013/10/09/day/">蓝莲花</a>

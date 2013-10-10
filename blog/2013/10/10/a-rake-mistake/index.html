@@ -5,15 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>蓝莲花 - Daniel's Blog</title>
+  <title>在部署新文章时遇到的问题 - Daniel's Blog</title>
   <meta name="author" content="Daniel FU">
 
   
-  <meta name="description" content="耳畔响起 今天吃晚饭的时候，餐厅放着音乐，突然响起悠扬的吉他，耳熟的《蓝莲花》带我进入短暂的回忆。 没有什么能够阻挡
-你对自由地向往
-天马行空的生涯
-你的心了无牵挂
-。。。 本科那会我对音乐的依赖远没有现在高，现在每天在空闲的时候都在听音乐。这首《蓝莲花》让我想起本科宿舍的舍友，虽有曲折的故事。 &hellip;">
+  <meta name="description" content="问题描述 在执行rake deploy或者rake gen_deploy时出现如下错误
+Pushing generated _deploy website fatal: https://github.com/fudaniel/fudaniel.github.io/info/refs?service &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -22,7 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://fupeng.org/blog/2013/10/09/day">
+  <link rel="canonical" href="http://fupeng.org/blog/2013/10/10/a-rake-mistake">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Daniel's Blog" type="application/atom+xml">
@@ -72,7 +69,7 @@
   
   <header>
     
-      <h1 class="entry-title">蓝莲花</h1>
+      <h1 class="entry-title">在部署新文章时遇到的问题</h1>
     
     
       <p class="meta">
@@ -88,26 +85,48 @@
   
 
 
-<time datetime="2013-10-09T19:47:00+08:00" pubdate data-updated="true">Oct 9<span>th</span>, 2013</time>
+<time datetime="2013-10-10T10:09:00+08:00" pubdate data-updated="true">Oct 10<span>th</span>, 2013</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><h2>耳畔响起</h2>
+<div class="entry-content"><h2>问题描述</h2>
 
-<p>今天吃晚饭的时候，餐厅放着音乐，突然响起悠扬的吉他，耳熟的《蓝莲花》带我进入短暂的回忆。</p>
+<p>在执行rake deploy或者rake gen_deploy时出现如下错误<br/>
+Pushing generated _deploy website</p>
 
-<blockquote><p>没有什么能够阻挡<br/>
-你对自由地向往<br/>
-天马行空的生涯<br/>
-你的心了无牵挂<br/>
-。。。</p></blockquote>
+<pre><code>fatal: https://github.com/fudaniel/fudaniel.github.io/info/refs?service=git-receive-pack not found: did you run git update-server-info on the server?
+</code></pre>
 
-<p>本科那会我对音乐的依赖远没有现在高，现在每天在空闲的时候都在听音乐。这首《蓝莲花》让我想起本科宿舍的舍友，虽有曲折的故事。但是往往回忆时都是曲折或者磕磕绊绊才能让人铭记。</p>
+<h2>解决办法</h2>
 
-<p>我是一个不善于外露自己情感的人，虽然那一刻我有短暂的回忆，但这回忆似乎不痛不痒。他没让我大彻大悟也没让我患得患失。</p>
+<p>在google上搜索没有找到好的解决办法。今天早上突然想到，git用于版本控制，昨天遇到过github客户端提示当前commit版本较remote版本小。也就是版本号不一致，产生了冲突。所以我将remote端同步到本地，将.git隐藏文件复制到_deploy文件夹覆盖新生成的.git文件夹。再执行rake deploy就会成功啦。</p>
+
+<h2>犯的错误</h2>
+
+<p>我这里导致版本不一致的操作是多次执行rake setup_github_pages命令，这会导致它完全删除原来的_deploy文件夹，然后重新生成新的。这样版本就会与remote的不一致。</p>
+
+<h2>正确的发布新文章流程</h2>
+
+<ol>
+<li><p>执行rake new_post[&lsquo;title&rsquo;]来生成一个博文；</p></li>
+<li><p>找对生成的markdown文件，编辑内容，当然是使用markdown语法来编辑；</p></li>
+<li><p>执行rake generate来生成文章；</p></li>
+<li><p>执行rake preview在本地预览；</p></li>
+<li><p>执行rake deploy发布到Github中。</p></li>
+<li><p>执行下面命令将修改的源码推送到source分支：</p>
+
+<p> git add .<br/>
+ git commit -m “your message”<br/>
+ git push origin source</p>
+
+<h2>参考链接</h2>
+
+<p><a href="http://www.cnblogs.com/oec2003/archive/2013/05/27/3100896.html">windows下搭建octopress博客</a></p></li>
+</ol>
+
 </div>
 
 
@@ -130,7 +149,7 @@
   
 
 
-<time datetime="2013-10-09T19:47:00+08:00" pubdate data-updated="true">Oct 9<span>th</span>, 2013</time>
+<time datetime="2013-10-10T10:09:00+08:00" pubdate data-updated="true">Oct 10<span>th</span>, 2013</time>
       
 
 
@@ -138,7 +157,7 @@
     
       <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://fupeng.org/blog/2013/10/09/day/" data-via="" data-counturl="http://fupeng.org/blog/2013/10/09/day/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://fupeng.org/blog/2013/10/10/a-rake-mistake/" data-via="" data-counturl="http://fupeng.org/blog/2013/10/10/a-rake-mistake/" >Tweet</a>
   
   
   
@@ -147,10 +166,8 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2013/10/09/my-first-article/" title="Previous Post: 用于测试">&laquo; 用于测试</a>
+        <a class="basic-alignment left" href="/blog/2013/10/09/day/" title="Previous Post: 蓝莲花">&laquo; 蓝莲花</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2013/10/10/a-rake-mistake/" title="Next Post: 在部署新文章时遇到的问题">在部署新文章时遇到的问题 &raquo;</a>
       
     </p>
   </footer>
