@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Daniel's Blog]]></title>
+  <title><![CDATA[付鹏的博客]]></title>
   <link href="http://fupeng.org/atom.xml" rel="self"/>
   <link href="http://fupeng.org/"/>
-  <updated>2013-10-10T10:28:00+08:00</updated>
+  <updated>2013-10-10T11:25:05+08:00</updated>
   <id>http://fupeng.org/</id>
   <author>
-    <name><![CDATA[Daniel FU]]></name>
+    <name><![CDATA[付鹏]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
