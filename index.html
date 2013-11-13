@@ -9,8 +9,10 @@
   <meta name="author" content="付鹏">
 
   
-  <meta name="description" content="问题描述 在执行rake deploy或者rake gen_deploy时出现如下错误
-Pushing generated _deploy website fatal: https://github.com/fudaniel/fudaniel.github.io/info/refs?service &hellip;">
+  <meta name="description" content="问题描述 在学习NLTK时，按照书中的步骤开始，当执行
+语句
+text4.dispersion_plot(['citizens','democracy','freedom','duties','America']) 时抛出异常
+&#8220;Traceback (most recent call &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -66,6 +68,81 @@ Pushing generated _deploy website fatal: https://github.com/fudaniel/fudaniel.gi
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/11/13/a-exception-about-nltk-dispersion-plot/">NLTK 执行text4.dispersion_plot遇到的异常</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-11-13T12:46:00+08:00" pubdate data-updated="true">Nov 13<span>th</span>, 2013</time>
+        
+           | <a href="/blog/2013/11/13/a-exception-about-nltk-dispersion-plot/#disqus_thread"
+             data-disqus-identifier="http://fupeng.org/blog/2013/11/13/a-exception-about-nltk-dispersion-plot/">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h2>问题描述</h2>
+
+<p>在学习NLTK时，按照书中的步骤开始，当执行<br/>
+语句
+<code>text4.dispersion_plot(['citizens','democracy','freedom','duties','America'])</code></p>
+
+<p>时抛出异常<br/>
+&#8220;Traceback (most recent call last):
+  File &ldquo;&lt;pyshell#12>&rdquo;, line 1, in <module></p>
+
+<pre><code>text4.dispersion_plot(['citizens','democracy','freedom','duties','America'])
+</code></pre>
+
+<p>  File &ldquo;C:\Python27\lib\site-packages\nltk\text.py&rdquo;, line 454, in dispersion_plot</p>
+
+<pre><code>dispersion_plot(self, words)
+</code></pre>
+
+<p>  File &ldquo;C:\Python27\lib\site-packages\nltk\draw\dispersion.py&rdquo;, line 25, in dispersion_plot</p>
+
+<pre><code>raise ValueError('The plot function requires the matplotlib package (aka pylab).'
+</code></pre>
+
+<p>ValueError: The plot function requires the matplotlib package (aka pylab).See <a href="http://matplotlib.sourceforge.net/">http://matplotlib.sourceforge.net/</a>&#8220;</p>
+
+<h2>解决方法</h2>
+
+<ol>
+<li>安装matploitlib库
+matploitlib官网<a href="http://matplotlib.org/">http://matplotlib.org</a>找到适合自己的版本。
+我下载安装的是<a href="http://sourceforge.net/projects/matplotlib/files/matplotlib/matplotlib-1.3.1/matplotlib-1.3.1.win32-py2.7.exe/download?use_mirror=jaist">matplotlib-1.3.1.win32-py2.7.exe</a>，但是问题没有解决，运行仍然出现上述异常。
+1.在google上搜索问题，</li>
+</ol>
+
+
+<blockquote><p>The plot function requires the matplotlib package (aka pylab)
+看了几篇，没有好的结果，最后看到<a href="http://www.myexception.cn/perl-python/464414.html">【原】Python NLP实战之一：环境预备</a>在他的第一节中，安装Matplotlib的版本是<a href="http://sourceforge.net/projects/matplotlib/files/matplotlib/matplotlib-1.1.0/">1.1.0</a>。我下载了相同的版本，安装以后执行就没有问题了。</p></blockquote>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -191,61 +268,6 @@ Pushing generated _deploy website</p>
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/10/09/my-first-article/">用于测试</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-10-09T14:29:00+08:00" pubdate data-updated="true">Oct 9<span>th</span>, 2013</time>
-        
-           | <a href="/blog/2013/10/09/my-first-article/#disqus_thread"
-             data-disqus-identifier="http://fupeng.org/blog/2013/10/09/my-first-article/">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><h3>测试</h3>
-
-<p>终于将octopress+github+jekyll搭建好了。<br/>
-这是一个测试页面。</p>
-
-<h3>参考链接</h3>
-
-<p><a href="http://sinosmond.github.io/blog/2012/03/12/install-and-deploy-octopress-to-github-on-windows7-from-scratch/">在 Windows7 下从头开始安装部署 Octopress</a>这篇文章可以很好的解决windows 7下安装遇到的问题。<br/>
-<a href="http://www.cnblogs.com/purediy/archive/2013/03/07/2948892.html">通过GitHub Pages建立个人站点（详细步骤）</a>这篇介绍的过程比较全面。</p>
-
-<h3>遇到的问题</h3>
-
-<p>在生成jekyll页面时出错，rake generate会报很多错，主要是配置文件_config.yml文件有问题，做一些修改。</p>
-
-<h3>感谢</h3>
-
-<p>感谢Jimmy为我申请<a href="fupeng.org">域名</a></p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
     <a href="/blog/archives">Blog Archives</a>
@@ -259,15 +281,15 @@ Pushing generated _deploy website</p>
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2013/11/13/a-exception-about-nltk-dispersion-plot/">NLTK 执行text4.dispersion_plot遇到的异常</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2013/10/10/a-rake-mistake/">在部署新文章时遇到的问题</a>
       </li>
     
       <li class="post">
         <a href="/blog/2013/10/09/day/">蓝莲花</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2013/10/09/my-first-article/">用于测试</a>
       </li>
     
   </ul>
