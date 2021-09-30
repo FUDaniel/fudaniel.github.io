@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Peng Fu 付鹏"
 title_separator          : "-"
 name                     : &name "Peng Fu 付鹏"
-description              : &description "Associate Professor, Institute of Information Engineering, Chinese Academy of Sciences"
+description              : &description "Associate Professor, IIE, CAS."
 url                      : fupeng.ac.cn # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "FUDaniel/fudaniel.github.io"
@@ -82,7 +82,9 @@ analytics:
 author:
   name             : "Peng Fu 付鹏"
   avatar           : "profile.png"
-  bio              : "Associate Professor, Institute of Information Engineering, Chinese Academy of Sciences"
+  bio              : "Associate Professor, 
+                      Institute of Information Engineering, 
+                      Chinese Academy of Sciences"
   location         : "Beijing"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
