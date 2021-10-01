@@ -82,9 +82,8 @@ analytics:
 author:
   name             : "Peng Fu 付鹏"
   avatar           : "profile.png"
-  bio              : "Associate Professor,\\ 
-                      Institute of Information Engineering,\\ 
-                      Chinese Academy of Sciences"
+  bio              : "Associate Professor," #Institute of Information Engineering,\\ 
+  #                    Chinese Academy of Sciences"
   location         : "Beijing"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
