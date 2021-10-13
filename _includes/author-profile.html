@@ -112,6 +112,12 @@
       {% if author.orcid %}
         <li><a href="{{ author.orcid }}"><i class="ai ai-orcid-square ai-fw"></i> ORCID</a></li>
       {% endif %}
+      {% if author.dblp %}
+        <li><a href="{{ author.dblp }}"><i class="ai ai-dblp-square ai-fw"></i> DBLP</a></li>
+      {% endif %}
+      {% if author.zhihu %}
+        <li><a href="{{ author.zhihu }}"><i class="ai ai-orcid-square ai-fw"></i> zhihu</a></li>
+      {% endif %}
       {% if author.impactstory %}
         <li><a href="{{ author.impactstory }}"><i class="ai ai-impactstory ai-fw"></i> Impactstory</a></li>
       {% endif %}
