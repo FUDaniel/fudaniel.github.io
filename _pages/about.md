@@ -14,18 +14,17 @@ Email:fupeng[at]iie[dot]ac[dot]cn
 
 Recent News
 ======
-
-- **2021.09**: One paper is accepted by TASLP.
-- **2021.08**: One paper is accepted by Findings of EMNLP‘21.
-- **2021.05**: One paper is accepted by ACL-IJCNLP 2021.
-- **2021.04**: One paper is accepted by IJCAI 2021.
+- **2022.01**：Three papers are accepted by ICASSP 2022.
 
 
 
 # Publications
 
+## 2022
+
 ## 2021
 
+- Jiangnan Li, Zheng Lin, Peng Fu, Weiping Wang: [Past, Present, and Future: Conversational Emotion Recognition through Structural Modeling of Psychological Knowledge](https://aclanthology.org/2021.findings-emnlp.104.pdf). EMNLP (Findings) 2021: 1204-1214
 - Jiangnan Li, Hongliang Pan, Zheng Lin, Peng Fu, Weiping Wang: [Sarcasm Detection with Commonsense Knowledge](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9576623). IEEE/ACM TASLP, VOL.29, 2021: 3192-3201
 - Qingyi Si, Zheng Lin, Mingyu Zheng, Peng Fu, Weiping Wang: [Check It Again: Progressive Visual Question Answering via Visual Entailment](https://aclanthology.org/2021.acl-long.317.pdf). ACL/IJCNLP (1) 2021: 4101-4110
 - Qingyi Si, Yuanxin Liu, Peng Fu, Zheng Lin, Jiangnan Li, Weiping Wang: [Learning Class-Transductive Intent Representations for Zero-shot Intent Detection](https://www.ijcai.org/proceedings/2021/0540.pdf). IJCAI 2021: 3922-3928
