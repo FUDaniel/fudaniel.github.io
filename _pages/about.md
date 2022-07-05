@@ -14,6 +14,7 @@ Email:fupeng[at]iie[dot]ac[dot]cn
 
 Recent News
 ======
+- **2022.07**：One paper is accepted by ACM'MM 2022.
 - **2022.04**：One paper is accepted by IJCAI 2022.
 - **2022.04**：One paper is accepted by NAACL 2022.
 - **2022.01**：Three papers are accepted by ICASSP 2022.
@@ -24,6 +25,7 @@ Recent News
 
 ## 2022
 
+- Detach and Attach: Stylized Image Captioning without Paired Stylized Dataset. ACM'MM, 2022
 - Neutral Utterances are Also Causes: Enhancing Conversational Causal Emotion Entailment with Social Commonsense Knowledge. IJCAI, 2022
 - Learning to Win Lottery Tickets in BERT Transfer via Task-agnostic Mask Training. NAACL, 2022
 - Huishan Ji, Zheng Lin, Peng Fu, Weiping Wang: [Cross-Target Stance Detection Via Refined Meta-Learning](https://ieeexplore.ieee.org/document/9746302). ICASSP 2022: 7822-7826
