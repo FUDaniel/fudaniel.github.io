@@ -26,8 +26,8 @@ Recent News
 ## 2022
 
 - Detach and Attach: Stylized Image Captioning without Paired Stylized Dataset. ACM'MM, 2022
-- Neutral Utterances are Also Causes: Enhancing Conversational Causal Emotion Entailment with Social Commonsense Knowledge. IJCAI, 2022
-- Learning to Win Lottery Tickets in BERT Transfer via Task-agnostic Mask Training. NAACL, 2022
+- Jiangnan Li, Fandong Meng, Zheng Lin, Rui Liu, Peng Fu, Yanan Cao, Weiping Wang, Jie Zhou: [Neutral Utterances are Also Causes: Enhancing Conversational Causal Emotion Entailment with Social Commonsense Knowledge](https://www.ijcai.org/proceedings/2022/0584.pdf). IJCAI, 2022
+- Yuanxin Liu, Fandong Meng, Zheng Lin, Peng Fu, Yanan Cao, Weiping Wang, Jie Zhou: [Learning to Win Lottery Tickets in BERT Transfer via Task-agnostic Mask Training](https://aclanthology.org/2022.naacl-main.428.pdf). NAACL, 2022
 - Huishan Ji, Zheng Lin, Peng Fu, Weiping Wang: [Cross-Target Stance Detection Via Refined Meta-Learning](https://ieeexplore.ieee.org/document/9746302). ICASSP 2022: 7822-7826
 - Rui Liu, Zheng Lin, Peng Fu, Yuanxin Liu, Weiping Wang: [Connecting Targets via Latent Topics And Contrastive Learning: A Unified Framework For Robust Zero-Shot and Few-Shot Stance Detection](https://ieeexplore.ieee.org/document/9746739). ICASSP 2022: 7812-7816
 - Jingzi Gu, Dayan Wu, Peng Fu, Bo Li, Weiping Wang: [Deep Piecewise Hashing for Efficient Hamming Space Retrieval](https://ieeexplore.ieee.org/document/9746429). ICASSP 2022: 3199-3203
