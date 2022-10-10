@@ -14,6 +14,8 @@ Email:fupeng[at]iie[dot]ac[dot]cn
 
 Recent News
 ======
+- **2022.10**：Two papers are accepted by EMNLP 2022.
+- **2022.09**：One paper is accepted by NeurIPS 2022.
 - **2022.07**：One paper is accepted by ACM'MM 2022.
 - **2022.04**：One paper is accepted by IJCAI 2022.
 - **2022.04**：One paper is accepted by NAACL 2022.
