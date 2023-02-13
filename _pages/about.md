@@ -27,7 +27,16 @@ Recent News
 
 ## 2022
 
-- Detach and Attach: Stylized Image Captioning without Paired Stylized Dataset. ACM'MM, 2022
+- Rui Liu, Zheng Lin, Huishan Ji, Jiangnan Li, Peng Fu, Weiping Wang:
+[Target Really Matters: Target-aware Contrastive Learning and Consistency Regularization for Few-shot Stance Detection](https://aclanthology.org/2022.coling-1.605.pdf). COLING, 2022
+-	Qingyi Si, Yuanxin Liu, Fandong Meng, Zheng Lin, Peng Fu, Yanan Cao, Weiping Wang, Jie Zhou:
+[Towards Robust Visual Question Answering: Making the Most of Biased Samples via Contrastive Learning](https://aclanthology.org/2022.findings-emnlp.495.pdf). EMNLP (Findings), 2022
+- Qingyi Si, Fandong Meng, Mingyu Zheng, Zheng Lin, Yuanxin Liu, Peng Fu, Yanan Cao, Weiping Wang, Jie Zhou:
+[Language Prior Is Not the Only Shortcut: A Benchmark for Shortcut Learning in VQA](https://aclanthology.org/2022.findings-emnlp.271.pdf). EMNLP (Findings), 2022
+- Yuanxin Liu, Fandong Meng, Zheng Lin, Jiangnan Li, Peng Fu, Yanan Cao, Weiping Wang, Jie Zhou:
+[A Win-win Deal: Towards Sparse and Robust Pre-trained Language Models](https://openreview.net/pdf?id=UmaiVbwN1v). NeurIPS, 2022
+- Yutong Tan, Zheng Lin, Peng Fu, Mingyu Zheng, Lanrui Wang, Yanan Cao, Weiping Wang: 
+[Detach and Attach: Stylized Image Captioning without Paired Stylized Dataset](https://dl.acm.org/doi/pdf/10.1145/3503161.3548295). ACM'MM, 2022
 - Jiangnan Li, Fandong Meng, Zheng Lin, Rui Liu, Peng Fu, Yanan Cao, Weiping Wang, Jie Zhou: [Neutral Utterances are Also Causes: Enhancing Conversational Causal Emotion Entailment with Social Commonsense Knowledge](https://www.ijcai.org/proceedings/2022/0584.pdf). IJCAI, 2022
 - Yuanxin Liu, Fandong Meng, Zheng Lin, Peng Fu, Yanan Cao, Weiping Wang, Jie Zhou: [Learning to Win Lottery Tickets in BERT Transfer via Task-agnostic Mask Training](https://aclanthology.org/2022.naacl-main.428.pdf). NAACL, 2022
 - Huishan Ji, Zheng Lin, Peng Fu, Weiping Wang: [Cross-Target Stance Detection Via Refined Meta-Learning](https://ieeexplore.ieee.org/document/9746302). ICASSP 2022: 7822-7826
