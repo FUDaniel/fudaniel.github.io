@@ -8,22 +8,21 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I'm **Peng Fu (付鹏)**，an Associate Professor with the Institute of Information Engineering (IIE), Chinese Academy of Sciences (CAS). I received the Ph.D degree from the University of Chinese Academy of Sciences (UCAS) under the supervision of Prof. Weiping Wang  in 2018.  I am also lucky to have opportunities to collaborate with [Zheng Lin](https://iienlp.github.io/) (Associate Professor at IIE).  My research interests include Sentiment Analysis, Machine Reading Comprehension, and Text Generation.
+Hi! I'm **Peng Fu (付鹏)**，an Associate Professor with the Institute of Information Engineering (IIE), Chinese Academy of Sciences (CAS). I received the Ph.D degree from the University of Chinese Academy of Sciences (UCAS) under the supervision of Prof. Weiping Wang  in 2018.  I am also lucky to have opportunities to collaborate with [Zheng Lin](https://iienlp.github.io/) (Professor at IIE).  My research interests include Sentiment Analysis, Machine Reading Comprehension, and Text Generation.
 
 Email:fupeng[at]iie[dot]ac[dot]cn
 
 Recent News
 ======
-- **2022.10**：Two papers are accepted by EMNLP 2022.
-- **2022.09**：One paper is accepted by NeurIPS 2022.
-- **2022.07**：One paper is accepted by ACM'MM 2022.
-- **2022.04**：One paper is accepted by IJCAI 2022.
-- **2022.04**：One paper is accepted by NAACL 2022.
-- **2022.01**：Three papers are accepted by ICASSP 2022.
+- **2022.05**：Two papers are accepted by ACL 2023.
+- **2022.04**：One paper is accepted by IJCNN 2023.
+
 
 
 
 # Publications
+
+## 2023
 
 ## 2022
 
