@@ -23,7 +23,10 @@ Recent News
 # Publications
 
 ## 2023
-
+- Naibin Gu, Peng Fu, Xiyu Liu, Zhengxiao Liu, Zheng Lin, Weiping Wang:
+A Gradient Control Method for Backdoor Attacks on Parameter-Efficient Tuning. ACL, 2023
+- Jiangnan Li, Mo Yu, Fandong Meng, Zheng Lin, Peng Fu, Weiping Wang, Jie Zhou:
+Question-Interlocutor Scope Realized Graph Modeling over Key Utterances for Dialogue Reading Comprehension. ACL, 2023
 ## 2022
 
 - Rui Liu, Zheng Lin, Huishan Ji, Jiangnan Li, Peng Fu, Weiping Wang:
