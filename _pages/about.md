@@ -14,19 +14,28 @@ Email:fupeng[at]iie[dot]ac[dot]cn
 
 Recent News
 ======
-- **2022.05**：Two papers are accepted by ACL 2023.
-- **2022.04**：One paper is accepted by IJCNN 2023.
+- **2023.12**：One paper is accepted by AAAI 2024.
+
 
 
 
 
 # Publications
 
+## 2024
+- Yan Wang, Peize Li, Qingyi Si, Hanwen Zhang, Wenyu Zang, Zheng Lin, Peng Fu:
+[Cross-modality Multiple Relations Learning for Knowledge-based Visual Question Answering](https://dl.acm.org/doi/10.1145/3618301). ACM Trans. Multim. Comput. Commun. Appl. 20(3): 63:1-63:22 (2024)
+
 ## 2023
 - Naibin Gu, Peng Fu, Xiyu Liu, Zhengxiao Liu, Zheng Lin, Weiping Wang:
-A Gradient Control Method for Backdoor Attacks on Parameter-Efficient Tuning. ACL, 2023
+[A Gradient Control Method for Backdoor Attacks on Parameter-Efficient Tuning](https://aclanthology.org/2023.acl-long.194.pdf). ACL, 2023
 - Jiangnan Li, Mo Yu, Fandong Meng, Zheng Lin, Peng Fu, Weiping Wang, Jie Zhou:
-Question-Interlocutor Scope Realized Graph Modeling over Key Utterances for Dialogue Reading Comprehension. ACL, 2023
+[Question-Interlocutor Scope Realized Graph Modeling over Key Utterances for Dialogue Reading Comprehension](https://aclanthology.org/2023.findings-acl.306.pdf). ACL, 2023
+- Qingyi Si, Yuanxin Liu, Zheng Lin, Peng Fu, Yanan Cao, Weiping Wang:
+[Compressing and Debiasing Vision-Language Pre-Trained Models for Visual Question Answering](https://aclanthology.org/2023.emnlp-main.34.pdf). EMNLP 2023: 513-529
+- Zhe Wen, Qingyi Si, Zheng Lin, Huan Liu, Peng Fu, Weiping Wang:
+[Schema Item Matters in Knowledge Base Question Answering](https://ieeexplore.ieee.org/document/10191152). IJCNN 2023: 1-8
+
 ## 2022
 
 - Rui Liu, Zheng Lin, Huishan Ji, Jiangnan Li, Peng Fu, Weiping Wang:
