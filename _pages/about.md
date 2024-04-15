@@ -23,6 +23,8 @@ Recent News
 # Publications
 
 ## 2024
+- 	Peize Li, Qingyi Si, Peng Fu, Zheng Lin, Yan Wang:
+[Object Attribute Matters in Visual Question Answering](https://ojs.aaai.org/index.php/AAAI/article/view/29816/31416). AAAI 2024: 18545-18553
 - Yan Wang, Peize Li, Qingyi Si, Hanwen Zhang, Wenyu Zang, Zheng Lin, Peng Fu:
 [Cross-modality Multiple Relations Learning for Knowledge-based Visual Question Answering](https://dl.acm.org/doi/10.1145/3618301). ACM Trans. Multim. Comput. Commun. Appl. 20(3): 63:1-63:22 (2024)
 
