@@ -14,6 +14,7 @@ Email:fupeng[at]iie[dot]ac[dot]cn
 
 Recent News
 ======
+- **2024.05**：One paper is accepted by findings of ACL 2024.
 - **2023.12**：One paper is accepted by AAAI 2024.
 
 
