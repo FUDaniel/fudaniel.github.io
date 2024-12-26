@@ -8,14 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I'm **Peng Fu (付鹏)**，an Associate Professor with the Institute of Information Engineering (IIE), Chinese Academy of Sciences (CAS). I received the Ph.D degree from the University of Chinese Academy of Sciences (UCAS) under the supervision of Prof. Weiping Wang  in 2018.  I am also lucky to have opportunities to collaborate with [Zheng Lin](https://iienlp.github.io/) (Professor at IIE).  My research interests include Sentiment Analysis, Machine Reading Comprehension, and Text Generation.
+Hi! I'm **Peng Fu (付鹏)**，an Associate Professor with the Institute of Information Engineering (IIE), Chinese Academy of Sciences (CAS). I received the Ph.D degree from the University of Chinese Academy of Sciences (UCAS) under the supervision of Prof. Weiping Wang  in 2018.  I am also lucky to have opportunities to collaborate with [Zheng Lin](https://iienlp.github.io/) (Professor at IIE).  My research interests include Large Language Models, Sentiment Analysis, Machine Reading Comprehension, and Text Generation.
 
 Email:fupeng[at]iie[dot]ac[dot]cn
 
 Recent News
 ======
-- **2024.05**：One paper is accepted by findings of ACL 2024.
-- **2023.12**：One paper is accepted by AAAI 2024.
+- **2024.12**：One paper is accepted by AAAI 2025.
 
 
 
@@ -24,10 +23,14 @@ Recent News
 # Publications
 
 ## 2024
+- 	Naibin Gu, Peng Fu, Xiyu Liu, Bowen Shen, Zheng Lin, Weiping Wang:
+[Light-PEFT: Lightening Parameter-Efficient Fine-Tuning via Early Pruning](https://aclanthology.org/2024.findings-acl.447.pdf). ACL (Findings) 2024: 7528-7541
 - 	Peize Li, Qingyi Si, Peng Fu, Zheng Lin, Yan Wang:
 [Object Attribute Matters in Visual Question Answering](https://ojs.aaai.org/index.php/AAAI/article/view/29816/31416). AAAI 2024: 18545-18553
 - Yan Wang, Peize Li, Qingyi Si, Hanwen Zhang, Wenyu Zang, Zheng Lin, Peng Fu:
 [Cross-modality Multiple Relations Learning for Knowledge-based Visual Question Answering](https://dl.acm.org/doi/10.1145/3618301). ACM Trans. Multim. Comput. Commun. Appl. 20(3): 63:1-63:22 (2024)
+- 	Hanwen Zhang, Qingyi Si, Peng Fu, Zheng Lin, Weiping Wang:
+[Are Large Language Models Table-based Fact-Checkers?](https://ieeexplore.ieee.org/document/10580146). CSCWD 2024: 3086-3091
 
 ## 2023
 - Naibin Gu, Peng Fu, Xiyu Liu, Zhengxiao Liu, Zheng Lin, Weiping Wang:
